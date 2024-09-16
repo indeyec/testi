@@ -1,7 +1,7 @@
 <?php
 require('path/to/bitrix24/rest.php'); // Укажите правильный путь к библиотеке
 
-$bitrix24 = new \Bitrix24\Bitrix24('your_domain', 'your_webhook_key');
+$bitrix24 = new \Bitrix24\Bitrix24('domain', 'key');
 
 try {
     // Пакетный запрос для получения контакта и его сделок

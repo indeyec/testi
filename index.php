@@ -5,7 +5,7 @@ require 'vendor/autoload.php'; // Подключаем автозагрузчи�
 use Bitrix24\Bitrix24;
 
 // Задайте ваши идентификаторы и токены
-$webhookUrl = 'https://yourdomain.bitrix24.com/rest/';
+$webhookUrl = 'https://домен.bitrix24.com/rest/';
 $applicationId = 'YOUR_APPLICATION_ID'; // ID вашего приложения
 $applicationSecret = 'key'; // ключ вашего приложения
 $oauthAccessToken = 'token'; // Токен доступа
@@ -38,7 +38,7 @@ if (!empty($result['result'])) {
 <?php
 
 // Установите необходимые параметры
-$webhookUrl = 'https:// ваш_домен.bitrix24.ru/rest/1/ваш_ключ_вебхука/contact.list';
+$webhookUrl = 'https:// домен.bitrix24.ru/rest/1/ключ/contact.list';
 $query = [
     'filter' => ['LAST_NAME' => 'Иванов'],
     'select' => ['ID', 'LAST_NAME', 'NAME']
@@ -65,7 +65,7 @@ if (isset($response['error'])) {
 <?php
 
 // Установите необходимые параметры
-$webhookUrl = 'https:// ваш_домен.bitrix24.ru/rest/1/ваш_ключ_вебхука/contact.list';
+$webhookUrl = 'https://домен.bitrix24.ru/rest/1/ключ/contact.list';
 $query = [
     'filter' => ['LAST_NAME' => 'Иванов'],
     'select' => ['ID', 'LAST_NAME', 'NAME']
