@@ -1,4 +1,4 @@
-
+// задание 1
 <?php
 require 'vendor/autoload.php'; // Подключаем автозагрузчик Composer
 
@@ -88,5 +88,4 @@ if (isset($response['error'])) {
     }
 }
 ?>
-
 
